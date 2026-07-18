@@ -1,9 +1,9 @@
 (function(Scratch){
     "use strict"
-    class VealorHash{
+    class VectorHash{
     getInfo(){
         return{
-            id:"VealorHash",
+            id:"VectorHash",
             name:"哈希拓展",
             color1:"#960000",
             blocks:[
@@ -115,9 +115,8 @@
     }
 
 
-
 }
-Scratch.extensions.register(new VealorHash())
+Scratch.extensions.register(new VectorHash())
 })(Scratch);
 
 
