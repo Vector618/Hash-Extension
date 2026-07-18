@@ -57,7 +57,13 @@
                             defaultValue:"加入了空气喵~"
                         }
                     }
-                }
+                },
+
+                {
+                    opcode: "newline",
+                    blockType: Scratch.BlockType.REPORTER,
+                    text: "换行"
+                },
 
 
             ],
@@ -112,6 +118,10 @@
     copyText(args){
         const text = args.COPYTEXT
         navigator.clipboard.writeText(text);
+    }
+
+    newline() {
+      return "\n";
     }
 
 
